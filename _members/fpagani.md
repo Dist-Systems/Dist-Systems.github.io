@@ -1,5 +1,6 @@
 ---
 title: Fabio Pagani
+layout: single
 ---
  I am a postdoctoral researcher working with Giovanni Vigna and Christopher Kruegel in the SecLab at UC Santa Barbara. My research interests focus on several aspects of systems security. Currently, I am actively involved in projects related to automated vulnerability discovery (in firmware blobs and Android applications), and related to human-assisted cyber reasoning systems.
 
