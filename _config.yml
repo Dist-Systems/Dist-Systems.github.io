@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -199,6 +199,19 @@ kramdown:
   enable_coderay: false
 
 
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+  members:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -268,14 +281,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _members
   - scope:
       path: ""
-      type: posts
+      type: members
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
+      author_profile: false
       share: true
-      related: true

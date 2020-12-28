@@ -1,6 +1,7 @@
 ---
+title: Sponsors
+layout: collection
 permalink: /sponsors/
-layout: splash
 header: 
     image: https://picsum.photos/id/1040/1280/200
 ---
@@ -38,9 +39,6 @@ header:
       </a><a href="http://www.infineon.com/" target="_blank" rel="noopener" title="Infineon Technologies">
           
               <img src="/logos/infineon.png" alt="Infineon Technologies" height="125"></a>
-          
-      
-      
   </div>
 
   <div class="col-md-3" style="padding: 10px;text-align:center;">
