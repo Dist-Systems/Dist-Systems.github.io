@@ -282,9 +282,17 @@ compress_html:
 # Defaults
 defaults:
   # _members
-  - scope:
+  - 
+    scope:
       path: "/members/"
       type: members
     values:
       author_profile: false
       share: false
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "collection"
+      author: "Mr. Hyde"
