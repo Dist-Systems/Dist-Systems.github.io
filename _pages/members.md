@@ -12,6 +12,7 @@ member_categories:
     - postdoc
     - graduate student
     - research intern
+    - Software Engineer
     - research staff
     - lab visitor
 ---
@@ -22,7 +23,7 @@ member_categories:
     {% for person in site.members %}
         {% if person.portfolio-item-tag contains "current member" %}
             {% if person.portfolio-item-tag contains category %}
-                {% include person-single.html type="grid" %}
+                {% include member-box.html type="grid" %}
             {% endif %}
         {% endif %}
     {% endfor %}
