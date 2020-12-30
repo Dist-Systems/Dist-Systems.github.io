@@ -283,8 +283,8 @@ compress_html:
 defaults:
   # _members
   - scope:
-      path: ""
+      path: "/members/"
       type: members
     values:
       author_profile: false
-      share: true
+      share: false
