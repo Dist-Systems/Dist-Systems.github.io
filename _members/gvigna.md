@@ -1,6 +1,6 @@
 ---
 title: Giovanni Vigna
-layout: single 
+layout: single
 avatar: assets/images/members/vigna.png
 date: 2019-03-30 17:46:27
 portfolio-item-category:

@@ -13,7 +13,7 @@ def open_file(tag,rec):
     if(rec['current']):
         file = open(f'../_members/{tag}.md', 'w+')
         print(file.name)
-        file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single \navatar: assets/images/members/{rec['picture']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n- current member\n---\n{rec['description']}")
+        file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single\navatar: assets/images/members/{rec['picture']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n- current member\n---\n{rec['description']}")
         file.close()
 
 def main(ppl_file='clean_lab.csv'):
