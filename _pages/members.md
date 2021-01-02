@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 
 member_categories:
-    - faculty
+    - Faculty
     - PhD graduate
     - postdoc
     - graduate student

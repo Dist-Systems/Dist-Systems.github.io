@@ -10,11 +10,11 @@ def get_tag_from_name(rec):
     return(tag.lower())
 
 def open_file(tag,rec):
-    file = open(f'../_members/{tag}.md', 'w+')
-    print(file.name)
     if(rec['current']):
+        file = open(f'../_members/{tag}.md', 'w+')
+        print(file.name)
         file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single \navatar: assets/images/members/{rec['picture']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n- current member\n---\n{rec['description']}")
-    file.close()
+        file.close()
 
 def main(ppl_file='clean_lab.csv'):
     #os.makedirs(out_directory, mode=0o700, exist_ok=True)
