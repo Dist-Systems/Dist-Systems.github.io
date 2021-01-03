@@ -1,12 +1,12 @@
 ---
-title: Fabio Pagani
+title: Chinmay Garg
 layout: single
-avatar: assets/images/members/pagani.png
+avatar: assets/images/members/chinmay.jpeg
 date: 2019-03-30 17:46:27
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- Post-doctoral Researchers
+- Master Students
 - current member
 ---
 nan

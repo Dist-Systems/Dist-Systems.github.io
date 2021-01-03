@@ -1,12 +1,12 @@
 ---
-title: Fabio Pagani
+title: Kevin Burk
 layout: single
-avatar: assets/images/members/pagani.png
+avatar: assets/images/members/burke.png
 date: 2019-03-30 17:46:27
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- Post-doctoral Researchers
+- PhD Students
 - current member
 ---
 nan

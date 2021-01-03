@@ -1,12 +1,12 @@
 ---
-title: Fabio Pagani
+title: Richard Kemmerer
 layout: single
-avatar: assets/images/members/pagani.png
+avatar: assets/images/members/kemmhead3.jpeg
 date: 2019-03-30 17:46:27
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- Post-doctoral Researchers
+- Emeriti
 - current member
 ---
 nan
