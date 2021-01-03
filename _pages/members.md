@@ -8,6 +8,8 @@ classes: wide
 member_categories:
     - Faculty
     - PhD Students
+    - Master Students
+    - Undergrad Students
     - Post-doctoral Researchers
     - Software Engineer
 ---
