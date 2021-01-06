@@ -1,9 +1,12 @@
 ---
 title: Members
-layout: collection
+layout: splash
+header: 
+  image: https://picsum.photos/id/141/1280/100
 permalink: /members/
 entries_layout: grid
 classes: wide
+author_profile: false
 
 member_categories:
     - Faculty
