@@ -1,0 +1,63 @@
+---
+- name: Activision
+  url: https://www.activision.com/
+  logo: activision.png
+- name: Amazon
+  url: https://www.amazon.com/
+  logo: amazon.png
+- full_name: Army Research Laboratory
+  name: ARL
+  url: http://www.arl.army.mil/
+  logo: arl.jpg
+- full_name: Army Research Office
+  name: ARO
+  logo: aro.jpg
+- full_name: Defense Advanced Research Projects Agency
+  name: DARPA
+  url: http://www.darpa.mil/
+  logo: darpa.png
+- full_name: Google
+  name: Google
+  url: https://www.google.com/
+  logo: google.png
+- full_name: Infineon Technologies
+  name: Infineon Technologies
+  url: http://www.infineon.com/
+  logo: infineon.png
+- full_name: Intel
+  name: Intel
+  url: https://intel.com/
+  logo: intel.png
+- name: LastLine
+  url: https://www.lastline.com/
+  logo: lastline.png
+- name: Mondex
+  url: http://www.mondex.com
+  logo: mondex.png
+- full_name: National Scince Foundation
+  name: NSF
+  url: http://www.nsf.gov
+  logo: nsf.jpeg
+- full_name: National Security Agency
+  name: NSA
+  url: http://www.nsa.gov/
+  logo: nsa.png
+- name: Pulsepoint
+  url: http://www.ptpt.com
+  logo: pulsepoint.jpeg
+- name: Siemens
+  url: http://www.siemens.com
+  logo: siemens.jpeg
+- name: Sun Microsystems
+  url: http://www.sun.com
+  logo: sun.png
+- name: UniSys
+  url: http://www.unisys.com
+  logo: unisys.jpeg
+- name: VMware
+  url: http://www.vmware.com
+  logo: vmware.jpeg
+- name: Xerox
+  url: http://www.xerox.com
+  logo: xerox.jpeg
+
