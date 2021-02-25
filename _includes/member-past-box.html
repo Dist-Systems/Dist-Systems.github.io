@@ -9,17 +9,11 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if person.avatar %}
-    <div class="person__image">
-    <!-- <div class="archive__item-teaser"> -->
-      {% if person.avatar contains "://" %}
-        <img src="{{ person.avatar }}" alt="{{ person.name }}" itemprop="image">
-      {% else %}
+    <div class="past_person__image">
         <img src="{{ person.avatar | absolute_url }}" alt="{{ person.name }}" itemprop="image">
-      {% endif %}
     </div>
-  {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-          {{ person.title }}
-    </h2>
+    {% endif %}
+    <strong>{{ person.title }}</strong>
+    <em> {{ person.portfolio-item-tag }}</em> 
   </article>
 </div>

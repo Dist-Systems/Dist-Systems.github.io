@@ -1,12 +1,11 @@
 ---
-title: Lukas Dresel
+title: Johannes Schlumberger
 layout: single
-avatar: assets/images/members/alias.jpeg
+avatar: assets/images/members/spjsschl.jpg
 date: 2019-03-30 17:46:27
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- PhD Students
-- current member
+- Master Student
 ---
 nan

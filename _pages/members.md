@@ -27,10 +27,21 @@ member_categories:
     {% for person in site.members %}
         {% if person.portfolio-item-tag contains "current member" %}
             {% if person.portfolio-item-tag contains category %}
-                {% include member-box.html type="grid" %}
+                {% include member-current-box.html type="grid" %}
             {% endif %}
         {% endif %}
     {% endfor %}
 </div>
 
 {% endfor %}
+
+<div>
+<div class="grid__item"><h2 class="page__title">Past Members</h2></div>
+</div>
+<div class="grid__wrapper">
+    {% for person in site.members %}
+        {% unless person.portfolio-item-tag contains "current member" %}
+                {% include member-past-box.html type="grid" %}
+        {% endunless %}
+    {% endfor %}
+</div>
