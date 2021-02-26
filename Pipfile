@@ -7,6 +7,8 @@ name = "pypi"
 pandas = "*"
 bibtexparser = "*"
 jinja2 = "*"
+ipython = "*"
+notebook = "*"
 
 [dev-packages]
 
