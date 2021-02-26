@@ -14,15 +14,11 @@ def make_file(tag,rec, current=False):
 
     print(file.name)
 
-    if(isinstance(rec['picture'],(float))):
-        rec['pic'] = 'alias.jpeg'
-    else:
-        rec['pic'] = rec['picture']
 
     if(current):
-        file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single\navatar: assets/images/members/{rec['pic']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n- current member\n---\n{rec['description']}")
+        file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single\navatar: assets/images/members/{rec['picture']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n- current member\n---\n{rec['description']}")
     else:
-        file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single\navatar: assets/images/members/{rec['pic']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n---\n{rec['description']}")
+        file.write(f"---\ntitle: {rec['first_name']} {rec['last_name']}\nlayout: single\navatar: assets/images/members/{rec['picture']}\ndate: 2019-03-30 17:46:27\nportfolio-item-category:\n- people\nportfolio-item-tag:\n- {rec['rank']}\n---\n{rec['description']}")
     file.close()
 
 def make_md_files(ppl_file):
