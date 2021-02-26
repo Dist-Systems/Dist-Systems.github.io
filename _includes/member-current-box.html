@@ -10,15 +10,9 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if person.avatar %}
     <div class="person__image">
-    <!-- <div class="archive__item-teaser"> -->
-    <a href="{{ person.url | absolute_url }}" rel="permalink">{{ person.title }}</a>
-      {% if person.avatar contains "://" %}
-        <img src="{{ person.avatar }}" alt="{{ person.name }}" itemprop="image">
-      {% else %}
-        <img src="{{ person.avatar | absolute_url }}" alt="{{ person.name }}" itemprop="image">
-      {% endif %}
+      <img src="{{ person.avatar | absolute_url }}" alt="{{ person.title }}" itemprop="image">
     </div>
-  {% endif %}
+    {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
           {{ person.title }}
     </h2>

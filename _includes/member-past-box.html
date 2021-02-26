@@ -2,7 +2,7 @@
 {% assign tags = (person_tags | split: ',' | sort:0) %}
  -->
 
-{% capture person_tags %}{% for tag in person.portfolio-item-tag %}{{ tag | downcase }}#{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% capture person_tags %}{% for tag in person.portfolio-item-tag %}{{ tag | downcase }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_hashes = (person_tags | split: ',' | sort:0) %}
 
 
@@ -10,10 +10,9 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if person.avatar %}
     <div class="past_person__image">
-        <img src="{{ person.avatar | absolute_url }}" alt="{{ person.name }}" itemprop="image">
+	    <img src="{{ person.avatar | absolute_url }}" alt="{{ person.title }}" title="{{ person_tags }}" itemprop="image">
     </div>
     {% endif %}
-    <strong>{{ person.title }}</strong>
-    <em> {{ person.portfolio-item-tag }}</em> 
+    <strong>{{ person.title }}</strong> 
   </article>
 </div>
